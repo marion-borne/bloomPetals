@@ -1,0 +1,133 @@
+@font-face{
+    font-family: 'Hunters';
+    src: url('font/Hunters.otf') format("opentype");
+}
+body, h1, p{
+    background-color: rgb(255, 247, 247);
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif
+}
+.header{
+    background-color: rgb(234, 182, 182);
+    height: 60px;
+    margin: 0px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    color: rgb(255, 247, 247);
+    letter-spacing: 0.1rem;
+}
+.menu li{
+    float: left;
+    padding: 23px;
+}
+.menu li a{
+    text-decoration: none;
+}
+form{
+    padding: 23px;
+    text-align: right;
+}
+input{
+    border-radius: 10px;
+    border-width: 0px;
+}
+input [type="search"]{
+    font-size: 20px;
+    border: 0;
+}
+.titre h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    font-family: 'Hunters';
+    font-size: 90pt;
+    color: rgb(231, 154, 162);
+}
+.engagement{
+    margin: 90px;
+    text-align: center;
+}
+hr{
+    border-width: 2px;
+    margin: 90px;
+}
+img{
+    height: 400px; 
+    object-fit: contain;
+}
+.equipe-description{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    text-align: center;
+    background-color:rgb(243, 190, 195);
+    border-radius: 20px;
+    padding: 30px;
+}
+.equipe-description h2{
+    color: rgb(148, 62, 72);
+}
+.equipe1{
+    width: 32%;
+}
+.Nina1{
+    background-color: rgb(243, 190, 195);
+    color: rgb(148, 62, 72);
+}
+.Alice1{
+    background-color: rgb(243, 190, 195);
+    color: rgb(148, 62, 72);
+}
+.Lisa1{
+    background-color: rgb(243, 190, 195);
+    color: rgb(148, 62, 72);
+}
+.choisir{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.choix1{
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+h3{
+    color: rgb(231, 154, 162);
+}
+
+
+
+
+
+.footer{
+    background-color: rgb(234, 182, 182);
+    height: 60px;
+    margin: 0px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    color: rgb(255, 247, 247);
+    letter-spacing: 0.1rem;
+}
+.menu-bas li{
+    float: left;
+    padding: 23px;
+}
+.menu-bas li a{
+    text-decoration: none;
+}
+  

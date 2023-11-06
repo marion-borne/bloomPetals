@@ -1,0 +1,154 @@
+@font-face{
+    font-family: 'Hunters';
+    src: url('font/Hunters.otf') format("opentype");
+}
+    
+body, h1, p{
+    background-color: rgb(255, 247, 247);
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif
+}
+.header{
+    background-color: rgb(234, 182, 182);
+    height: 60px;
+    margin: 0px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    color: rgb(255, 247, 247);
+    letter-spacing: 0.1rem;
+}
+.menu li{
+    float: left;
+    padding: 23px;
+}
+.menu li a{
+    text-decoration: none;
+}
+form{
+    padding: 23px;
+    text-align: right;
+}
+input{
+    border-radius: 10px;
+    border-width: 0px;
+}
+input [type="search"]{
+    font-size: 20px;
+    border: 0;
+}
+.titre h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 100pt;
+    font-family: 'Hunters';
+    color: rgb(231, 154, 162);
+}
+.description-index{
+    margin: 90px;
+    text-align: center;
+}
+hr{
+    border-width: 2px;
+    margin: 90px;
+}
+.photos-index{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+}
+img{
+    height: 350px; 
+    object-fit: contain;
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+.service{
+    margin-left: 35px;
+}
+
+
+
+
+.more1{
+    display: none;
+}
+.readmore-button1{
+    padding: 5px 10px;
+    background-color: rgb(255, 247, 247);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    color:grey;
+}
+.more2{
+    display: none;
+}
+.readmore-button2{
+    padding: 5px 10px;
+    background-color: rgb(255, 247, 247);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    color:grey;
+}
+.more3{
+    display: none;
+}
+.readmore-button3{
+    padding: 5px 10px;
+    background-color: rgb(255, 247, 247);
+    border: none;
+    outline: none;
+    font-size: 15px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    color: grey;
+}
+
+
+
+
+
+
+
+.footer{
+    background-color: rgb(234, 182, 182);
+    height: 60px;
+    margin: 0px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px;
+}
+ul li a{
+    color: rgb(255, 247, 247);
+    letter-spacing: 0.1rem;
+}
+.menu-bas li{
+    float: left;
+    padding: 23px;
+}
+.menu-bas li a{
+    text-decoration: none;
+}
+    
